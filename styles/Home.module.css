@@ -1,5 +1,7 @@
 .container {
   padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .main {
@@ -16,6 +18,10 @@
   font-size: 64px;
   line-height: 77.45px;
   letter-spacing: 1;
+}
+
+.menu {
+  padding-right: 0.5rem;
 }
 
 .menu > ul {
@@ -126,6 +132,17 @@
 }
 
 @media (max-width: 600px) {
+
+  .headingOne {
+    font-size: 55px;
+    line-height: 55px;
+  }
+
+  .menuItem {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
   .grid {
     width: 100%;
     flex-direction: column;
